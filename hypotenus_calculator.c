@@ -16,7 +16,8 @@ int main(){
     C = sqrt(A*A + B*B);
 
     printf("Side C: %lf", C);
-
+    //This code cannot be compiled. There is an issue with the sqrt.
+    
     
     return 0;
 }
