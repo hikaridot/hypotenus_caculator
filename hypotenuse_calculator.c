@@ -17,7 +17,6 @@ int main(){
 
     printf("Side C: %lf", C);
     //This code cannot be compiled. There is an issue with the sqrt.
-    
-    
+    //Update: the compilation is done. I needed to add -lm to gcc file.c -o file when working on Linux env.    
     return 0;
 }
